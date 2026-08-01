@@ -1,7 +1,27 @@
 aid: setpointio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/setpointio.png
 name: Setpoint.io
-description: Setpoint.io is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Setpoint is a capital markets operating system for asset-backed finance. It
+  embeds with borrowers and lenders to manage debt facilities — warehouse
+  facilities, forward flow agreements, securitization, and fund/leverage finance
+  — automating collateral verification, data standardization, and reporting
+  across ABS and ABF markets. The platform (Capital OS and Data OS, plus
+  PledgeCheck collateral certification and Setpoint Analytics) manages over $50
+  billion in financed assets annually. Setpoint is not currently a public API
+  provider; this profile captures the company's identity and public web surface
+  for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/setpointio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Capital Markets
+- Asset-Backed Finance
+- Debt Capital
+- Securitization
+- Warehouse Lending
+- Financial Services
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/setpointio-domain-security.yml
+- type: Website
+  url: https://setpoint.io
+- type: Blog
+  url: https://setpoint.io/resources/
+- type: ChangeLog
+  url: https://new.setpoint.io
+- type: PrivacyPolicy
+  url: https://setpoint.io/privacy-policy/
+- type: Support
+  url: https://setpoint.io/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
