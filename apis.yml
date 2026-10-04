@@ -51,7 +51,7 @@ tags:
 - Debt Capital
 - Securitization
 - Warehouse Lending
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -61,6 +61,7 @@ tags_raw:
 - Securitization
 - Warehouse Lending
 - Financial Services
+- Financial-Services
 apis: []
 x-enrichment:
   date: '2026-07-21'
